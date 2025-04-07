@@ -50,17 +50,60 @@
 
 #ejercicio 6
 
-import random
-numeros_aletorios = [random.randint(1,100) for i in range(50)]
-from statistics import mode, median, mean
-mean (numeros_aletorios)
+#import random
+#numeros_aletorios = [random.randint(1,100) for i in range(50)]
+#from statistics import mode, median, mean
 
-if numeros_aletorios == mode:
-    print("Hay sesgo positivo")
-elif numeros_aletorios == median:
-    print("Hay sesgo negativo")
-else:
-    print("sin sesgo")
+#moda= mode(numeros_aletorios)
+#mediana= median(numeros_aletorios)
+#media= mean(numeros_aletorios)
+
+#if media > mediana and mediana > moda:
+    #print("Hay sesgo positivo")
+#elif media < mediana and mediana < moda:
+    #print("Hay sesgo negativo")
+#else:
+    #print("sin sesgo")
+
+#Ejercicio 7
+
+#palabra= input("Ingrese una palabra o frase: ")
+
+#if palabra [-1].lower() in "aeiou":
+    #print(palabra + "!")
+#else:
+    #print(palabra)
+
+#ejercicio 8 
+
+#nombre=input("Ingrese su nombre: ")
+#print("Ingrese una opcion para mostrar su nombre: ")
+#print("1- En mayuscula")
+#print("2- En minuscula")
+#print("3- La primer letra en mayuscula")
+#opcion =input( "Ingresa: 1, 2, o 3: " )
+
+#if opcion == "1":
+    #print(nombre.upper())
+#elif opcion == "2":
+    #print(nombre.lower())
+#elif opcion == "3":
+    #print(nombre.title())
+#else:
+    #print("Por favor ingrese una opcion valida")
+
+#ejercicio 9
+
+
+
+
+
+
+
+
+
+
+
 
 
 
